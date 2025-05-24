@@ -1,0 +1,104 @@
+/* General Body Styles */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5dc; /* Beige */
+    color: #333333; /* Dark Gray */
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Container for main content */
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    overflow: auto; /* Clear floats */
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: Georgia, serif;
+    color: #5D4037; /* Dark Brown */
+    margin-bottom: 15px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* Header and Navigation */
+header {
+    background-color: #8FBC8F; /* Dark Sea Green - a rustic green */
+    color: #ffffff;
+    padding: 1rem 0;
+    border-bottom: 3px solid #556B2F; /* Dark Olive Green */
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+header nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: #556B2F; /* Dark Olive Green */
+    border-radius: 5px;
+}
+
+/* Main Content Sections - visual separation */
+.apple-variety,
+.hard-cider-variety,
+.blog-post-summary,
+.activity,
+#regular-cider,
+#hard-ciders,
+#seasonal-events,
+#location,
+#hours,
+#contact,
+#general-info {
+    border: 1px solid #D2B48C; /* Tan */
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fffafa; /* Snow - slightly off-white for content blocks */
+    border-radius: 5px;
+}
+
+/* Hero Image Placeholder */
+#hero-image-placeholder {
+    min-height: 300px;
+    background-color: #A9A9A9; /* Dark Gray - placeholder color */
+    color: #ffffff;
+    display: flex; /* For centering text */
+    align-items: center; /* Vertical centering */
+    justify-content: center; /* Horizontal centering */
+    text-align: center;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #333333;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 30px;
+}
